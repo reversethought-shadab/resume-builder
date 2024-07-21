@@ -1,0 +1,137 @@
+.side-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    margin-bottom: 20px;
+  }
+  .photo-upload {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .photo-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    background-image: url('https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png'); 
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+  }
+  
+  .upload-button {
+    background-color: #BE2F56;
+    color: white;
+    border: none;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px 39px;
+}
+  .upload-button:hover {
+    background-color: #c9302c;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .form-select{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .details-form {
+    margin-bottom: 20px;
+  }
+  
+  .details-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .done-button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .custom-accordion .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #fff; */
+    border: 1px solid #817b7b;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+  .custom-accordion .accordion-header span {
+    font-weight: bold;
+  }
+  
+  .custom-accordion .accordion-header .toggle-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0;
+    color: #6c757d;
+  }
+  
+  .custom-accordion .accordion-body {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    background-color: #f9f9f9;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x); */
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    /* background-color: var(--bs-accordion-btn-bg); */
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
